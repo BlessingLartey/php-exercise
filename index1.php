@@ -89,3 +89,21 @@
 
 </body>
 </html>
+
+
+
+class Person{
+    public $name;
+    public $age;
+
+    public function breathe() {
+        echo "breathing";
+    }
+}
+
+$person = new Person();
+
+$person -> name = 'John DOe';
+$person -> age = 54;
+
+$person->breathe();
