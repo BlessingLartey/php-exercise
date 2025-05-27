@@ -1,0 +1,16 @@
+{
+    "name": "bbkla/demo",
+    "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+    },
+    "authors": [
+        {
+            "name": "Blessing Lartey",
+            "email": "bbklartey@gmail.com"
+        }
+    ],
+    "require": {}
+}
